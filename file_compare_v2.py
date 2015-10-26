@@ -11,6 +11,7 @@ LOG_FILENAME = 'report.log'
 log = logging.getLogger()
 
 
+# test
 def set_logger(filename=None, level=None):
     filename = filename or'log.log'
     level = level or 'INFO'
